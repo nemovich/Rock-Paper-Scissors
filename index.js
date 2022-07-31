@@ -23,7 +23,7 @@ function playRound (playerSelection, computerSelection) {
 }
 
 function game () {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 1; i < 6; i++) {
     const playerSelection = prompt(
       'Choose an option',
       'Rock,Paper or scissors'
